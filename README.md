@@ -7,8 +7,10 @@ CRUD of Contacts built using Flutter + Dart MVC + Oriented Object + Sqlite
 
 ## List of Contacts
 <img src="https://github.com/ViniciusSilveiraAlves/contacts/blob/master/contact_list.jpeg" width="350" height="600">
+
 ## Add/Update Contact
 <img src="https://github.com/ViniciusSilveiraAlves/contacts/blob/master/add_contact.jpeg" width="350" height="600">
+
 ## Actions of Contact
 <img src="https://github.com/ViniciusSilveiraAlves/contacts/blob/master/contact_actions.jpeg" width="350" height="600">
 
