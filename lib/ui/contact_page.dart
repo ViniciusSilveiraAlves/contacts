@@ -42,7 +42,7 @@ class _ContactPsgeState extends State<ContactPsge> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.blue,
         title: Text(_editedContact.name ?? "Novo Contato"),
       ),
       floatingActionButton: FloatingActionButton(
@@ -65,6 +65,7 @@ class _ContactPsgeState extends State<ContactPsge> {
                     image: DecorationImage(
                         image: _editedContact.img != null
                             ? FileImage(File(_editedContact.img))
+
                             : AssetImage("images/user_default.png"),
                         fit: BoxFit.cover)),
               ),
